@@ -3905,11 +3905,11 @@ function loadMapPage() {
 	var file = `
 	<div class="map-grid-container" align="center">
 			<h2>Stillwater Bayou</h2>
-			<div class="stillwater"><img src="resources/map1.png" alt="Stillwater Bayou Map"></div>
+			<div class="stillwater"><img src="resources/map1.PNG" alt="Stillwater Bayou Map"></div>
 			<h2>Lawson Delta</h2>
-			<div class="lawson"><img src="resources/map2.png" alt="Lawson Delta Map"></div>
+			<div class="lawson"><img src="resources/map2.PNG" alt="Lawson Delta Map"></div>
 			<h2>DeSalle</h2>
-			<div class="desalle"><img src="resources/map3.png" alt="DeSalle Map"></div>	
+			<div class="desalle"><img src="resources/map3.PNG" alt="DeSalle Map"></div>	
 		</div>
 	`;
 	loadPage(title, file);
