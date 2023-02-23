@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hunt: Showdown Resource</title>
+	<link href="final project.css" rel="stylesheet" />
+	<script src="final project.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<h1>Hunt Showdown</h1>
+	<h2>Levering</h2>
+
+	<div class="nav">
+		<button class="Home"><a href="final project.html">Home</a></button>
+		<button class="Weapon"><a href="final project wep.html">Weapons</a></button>
+		<button class="Tool"><a href="final project tools.html">Tools</a></button>
+		<button class="Consumable"><a href="final project cons.html">Consumables</a></button>
+		<button class="Damage"><a href="final project damage.html">Damage</a></button>
+		<button class="Fanning"><a href="final project fan.html">Fanning</a></button>
+		<button class="Levering"><a href="final project lev.html">Levering</a></button>
+		<button class="Levering"><a href="final project shotguns.html">Shotguns</a></button>
+		<button class="Dual-Wielding"><a href="final project dual.html">Dual-Wielding</a></button>
+		<button class="Maps"><a href="final project maps.html">Maps</a></button>
+	</div>
+	<p>
+	Levering is a trait the player can take that massively boosts the rate of fire of some weapons, at the cost of accuracy.
+	<br> The table below shows the change in fire rate of weapons used with levering and contains data on how accurate the weapons are with fanning.
+	</p>
+	<div class="filter-input5"><input type="text" id="myInput" onkeyup="filter()" placeholder="Search for names.."></div>
+	<div class="ritz grid-container" dir="ltr" align="center">
+			<table class="waffle" id="table" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th id="1920185124C0" style="width:100px;" class="column-headers-background" ondblclick="sortTable(0)">Name</th>
+						<th id="1920185124C1" style="width:200px;" class="column-headers-background" ondblclick="sortTableNum(1)">Base Rate of Fire (rpm)</th>
+						<th id="1920185124C2" style="width:250px;" class="column-headers-background" ondblclick="sortTableNum(2)">Rate of Fire with Levering (rpm)</th>
+						<th id="1920185124C3" style="width:250px;" class="column-headers-background" ondblclick="sortTableNum(3)">Diameter of Hip-fire Cross-hair (px)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield 1887 Terminus</td>
+						<td class="s3" dir="ltr">36</td>
+						<td class="s3" dir="ltr">85</td>
+						<td class="s3" dir="ltr">116</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield 1887 Terminus Handcannon</td>
+						<td class="s3" dir="ltr">36</td>
+						<td class="s3" dir="ltr">85</td>
+						<td class="s3" dir="ltr">152</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873 </td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">144</td>
+						<td class="green" dir="ltr">42</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873 Aperture</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">144</td>
+						<td class="green" dir="ltr">42</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873 Musket Bayonet</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">109</td>
+						<td class="green" dir="ltr">42</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873 Swift</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">144</td>
+						<td class="green" dir="ltr">42</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873 Talon</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">144</td>
+						<td class="green" dir="ltr">42</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873C</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">144</td>
+						<td class="green" dir="ltr">42</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873C Marksman</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">144</td>
+						<td class="s3" dir="ltr">54</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873C Silencer</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">144</td>
+						<td class="s3" dir="ltr">54</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873C Vandal</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">150</td>
+						<td class="s3" dir="ltr">82</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873C Vandal Deadeye</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">150</td>
+						<td class="s3" dir="ltr">82</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1873C Vandal Striker</td>
+						<td class="s3" dir="ltr">50</td>
+						<td class="s3" dir="ltr">150</td>
+						<td class="s3" dir="ltr">110</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1876 Centennial</td>
+						<td class="s3" dir="ltr">39</td>
+						<td class="s3" dir="ltr">92</td>
+						<td class="s3" dir="ltr">100</td>
+					</tr>
+					<tr style="height: 20px">
+						 
+						<td class="s0" dir="ltr">Winfield M1876 Centennial Sniper</td>
+						<td class="s3" dir="ltr">39</td>
+						<td class="s3" dir="ltr">92</td>
+						<td class="s3" dir="ltr">132</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class ="pancake" align="center"><tr><td>*Green Indicates the most accurate weapon to use levering with.</td></tr></table>
+	</div>
+</body>
+</html>

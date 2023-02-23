@@ -1,0 +1,56 @@
+/*.row {
+	outline-style: dotted;
+	outline-width: thin;
+}*/
+
+.row {
+	height: auto;
+	color: black;
+	width: fit-content;
+	margin-top: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+}
+
+.shirt {
+	margin-bottom: -5px;
+}
+
+.buyableItem{
+	display: flex;
+	flex-flow:column wrap;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+#clothes{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.buyButton, .cost {
+	width: fit-content;
+	padding: 0px 15px 0px 15px;
+	font-size: 18px;
+}
+
+.buyButton {
+	float: right;
+}
+
+.cost {
+	float: left;
+}
+
+.clothingName {
+	margin: 0px 0px 15px 0px;
+}
+
+.costLinethrough {
+	float: left;
+	text-decoration: line-through;
+	color: grey;
+}

@@ -1,0 +1,161 @@
+			h1, h2, h3, p, caption {
+				text-align: center;
+				color: #ffffff;
+			}
+			div.nav {
+				margin: auto;
+				width: 30%
+			}
+			button {
+				background-color: #000000;
+			}
+			a {
+				color: #ffffff;
+				text-decoration: none;
+			}
+			body {
+				background-image: url("resources/Hunt-Wallpaper.jpg");
+			}
+			tr:nth-child(odd) {
+				background-color: #ffffff;
+			}
+			tr:nth-child(even) {
+				background-color: #D6EEEE;
+			}
+			table.pancake tr {
+				background-color: #D6EEEE;
+			}
+			.ritz .waffle a { 
+				color: inherit; 
+			}
+			.ritz .waffle .grey {
+				background-color:#b7b7b7;
+				text-align:left;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+			.ritz .waffle .s0{
+				text-align:left;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+			.ritz .waffle .s3{
+				text-align:right;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+			.ritz .waffle .green{
+				background-color:#34a853;
+				text-align:right;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+
+			.ritz .waffle .blue{
+				background-color:#4285f4;
+				text-align:right;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+			.damage-grid-container {
+				display: grid;
+				grid-template-columns: 1064px 589px;
+				grid-template-rows: 329px 331px 183px;
+				justify-content: space-evenly;
+				gap: 0px;
+			}
+			.grid-item1 {
+				grid-column: 1;
+				grid-row: 1 / span 3;
+			}
+			.grid-item2 {
+				grid-column: 2;
+				grid-row: 1;
+			}
+			.grid-item3 {
+				grid-column: 2;
+				grid-row: 2;
+			}
+			.grid-item4 {
+				grid-column: 2;
+				grid-row: 3;
+			}
+			div.filter-input {
+				padding-left: 280px;
+				padding-bottom: 10px;
+			}
+			div.filter-input2 {
+				padding-left: 305px;
+				padding-bottom: 10px;
+			}
+			div.filter-input3 {
+				padding-left: 580px;
+				padding-bottom: 10px;
+			}
+			div.filter-input4 {
+				padding-left: 800px;
+				padding-bottom: 10px;
+			}
+			div.filter-input5 {
+				padding-left: 790px;
+				padding-bottom: 10px;
+			}
+			div.filter-input6 {
+				padding-left: 855px;
+				padding-bottom: 10px;
+			}
+			#myInput {
+				width: 40%; /* Full-width */
+				font-size: 16px; /* Increase font-size */
+			}
+			th {
+				cursor: pointer;
+			}
+			div.shotgun img{
+				width: 70%;
+				height: auto;
+			}
+			.dropbtn {
+				background-color: #ffffff;
+				border-color: #ffffff;
+			}
+			.dropdown {
+				position: relative;
+				display: inline-block;
+			  }
+			/* Dropdown Content (Hidden by Default) */
+			.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			text-align: left;
+			z-index: 1;
+			}
+			.show {display:block;}
