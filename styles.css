@@ -115,6 +115,10 @@ a img {
   padding: 10px;
 }
 
+.list-item {
+  padding: 5px;
+}
+
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
     h1 {
