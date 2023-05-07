@@ -119,6 +119,10 @@ a img {
   padding: 5px;
 }
 
+.description {
+  text-align: center;
+}
+
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
     h1 {
